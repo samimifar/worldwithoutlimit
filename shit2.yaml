@@ -1,0 +1,98 @@
+##with love, by MisterH
+socks-port: 12345
+port: 54321
+allow-lan: false
+mode: Global
+log-level: silent
+external-controller: 127.0.0.1:9090
+
+proxies:
+  - {name: 🇦🇷 Argentina, server: 91.206.168.24, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇦🇺 Australia, server: 103.192.80.244, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇧🇪 Belgium, server: 91.90.123.166, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇧🇷 Brazil, server: 45.231.207.73, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇨🇦 Canada, server: 192.111.128.139, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇫🇮 Finland, server: 196.244.191.110, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇨🇵 France, server: 217.138.207.252, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇩🇪 Germany, server: 138.199.19.138, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇮🇹 Italy, server: 37.120.207.118, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇯🇵 Japan, server: 89.187.161.23, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇱🇺 Luxembourg, server: 185.153.151.127, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇲🇽 Mexico, server: 194.41.112.15, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇳🇱 Netherlands, server: 89.46.223.191, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇷🇺 Russia, server: 185.246.88.102, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇸🇬 Singapore, server: 89.187.162.185, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇪🇦 Spain, server: 188.208.141.37, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇸🇪 Sweden, server: 185.76.9.58, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇦🇪 United Arab Emirates, server: 176.125.231.28, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇬🇧 United Kingdom, server: 185.108.105.169, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇺🇲 United States, server: 138.199.40.163, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+
+
+proxy-groups:
+  - name: 🖐 Manual
+    type: select
+    proxies:
+      - 🔄 Auto
+      - 🇦🇷 Argentina
+      - 🇦🇺 Australia
+      - 🇧🇪 Belgium
+      - 🇧🇷 Brazil 
+      - 🇨🇦 Canada 
+      - 🇫🇮 Finland
+      - 🇨🇵 France
+      - 🇩🇪 Germany
+      - 🇮🇹 Italy
+      - 🇯🇵 Japan 
+      - 🇱🇺 Luxembourg
+      - 🇲🇽 Mexico
+      - 🇳🇱 Netherlands
+      - 🇷🇺 Russia
+      - 🇸🇬 Singapore
+      - 🇪🇦 Spain
+      - 🇸🇪 Sweden
+      - 🇦🇪 United Arab Emirates
+      - 🇬🇧 United Kingdom
+      - 🇺🇲 United States
+
+
+  - name: 🔄 Auto
+    type: url-test
+    proxies:
+      - 🇦🇷 Argentina
+      - 🇦🇺 Australia
+      - 🇧🇪 Belgium
+      - 🇧🇷 Brazil 
+      - 🇨🇦 Canada
+      - 🇨🇵 France
+      - 🇩🇪 Germany
+      - 🇮🇹 Italy
+      - 🇯🇵 Japan 
+      - 🇱🇺 Luxembourg
+      - 🇲🇽 Mexico
+      - 🇳🇱 Netherlands
+      - 🇷🇺 Russia
+      - 🇸🇬 Singapore
+      - 🇪🇦 Spain
+      - 🇸🇪 Sweden
+      - 🇦🇪 United Arab Emirates
+      - 🇬🇧 United Kingdom
+      - 🇺🇲 United States
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+
+
+rules:
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - IP-CIDR6,::1/128,DIRECT,no-resolve
+  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ad.com,REJECT
+  - SRC-IP-CIDR,192.168.1.201/32,DIRECT
+  - GEOIP,IR,DIRECT
+  - MATCH,,🖐 Manual,dns-failed
