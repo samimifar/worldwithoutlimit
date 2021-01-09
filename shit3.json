@@ -1,100 +1,20 @@
-{
-  "dns": {
-    "hosts": {
-      "domain:googleapis.cn": "googleapis.com"
-    },
-    "servers": [
-      "1.1.1.1"
-    ]
-  },
-  "inbounds": [
-    {
-      "listen": "127.0.0.1",
-      "port": 10808,
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true,
-        "userLevel": 8
-      },
-      "sniffing": {
-        "destOverride": [
-          "http",
-          "tls"
-        ],
-        "enabled": true
-      },
-      "tag": "socks"
-    },
-    {
-      "listen": "127.0.0.1",
-      "port": 10809,
-      "protocol": "http",
-      "settings": {
-        "userLevel": 8
-      },
-      "tag": "http"
-    }
-  ],
-  "log": {
-    "loglevel": "warning"
-  },
-  "outbounds": [
-    {
-      "mux": {
-        "concurrency": -1,
-        "enabled": false
-      },
-      "protocol": "shadowsocks",
-      "settings": {
-        "servers": [
-          {
-            "address": "91.206.168.24",
-            "level": 8,
-            "method": "aes-256-gcm",
-            "ota": false,
-            "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
-            "port": 32391
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp"
-      },
-      "tag": "proxy"
-    },
-    {
-      "protocol": "freedom",
-      "settings": {},
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "settings": {
-        "response": {
-          "type": "http"
-        }
-      },
-      "tag": "block"
-    }
-  ],
-  "policy": {
-    "levels": {
-      "8": {
-        "connIdle": 300,
-        "downlinkOnly": 1,
-        "handshake": 4,
-        "uplinkOnly": 1
-      }
-    },
-    "system": {
-      "statsOutboundUplink": true,
-      "statsOutboundDownlink": true
-    }
-  },
-  "routing": {
-    "domainStrategy": "IPIfNonMatch",
-    "rules": []
-  },
-  "stats": {}
-}
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDkxLjIwNi4xNjguMjQ6MzIzOTE=#%F0%9F%87%A6%F0%9F%87%B7+Argentina
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDEwMy4xOTIuODAuMjQ0OjMyMzkx#%F0%9F%87%A6%F0%9F%87%BA+Australia
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDkxLjkwLjEyMy4xNjY6MzIzOTE=#%F0%9F%87%A7%F0%9F%87%AA+Belgium
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDQ1LjIzMS4yMDcuNzM6MzIzOTE=#%F0%9F%87%A7%F0%9F%87%B7+Brazil
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE5Mi4xMTEuMTI4LjEzOTozMjM5MQ==#%F0%9F%87%A8%F0%9F%87%A6+Canada
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE5Ni4yNDQuMTkxLjExMDozMjM5MQ==#%F0%9F%87%AB%F0%9F%87%AE+Finland
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDIxNy4xMzguMjA3LjI1MjozMjM5MQ==#%F0%9F%87%A8%F0%9F%87%B5+France
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDEzOC4xOTkuMTkuMTM4OjMyMzkx#%F0%9F%87%A9%F0%9F%87%AA+Germany
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDM3LjEyMC4yMDcuMTE4OjMyMzkx#%F0%9F%87%AE%F0%9F%87%B9+Italy
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDg5LjE4Ny4xNjEuMjM6MzIzOTE=#%F0%9F%87%AF%F0%9F%87%B5+Japan
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE4NS4xNTMuMTUxLjEyNzozMjM5MQ==#%F0%9F%87%B1%F0%9F%87%BA+Luxembourg
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE5NC40MS4xMTIuMTU6MzIzOTE=#%F0%9F%87%B2%F0%9F%87%BD+Mexico
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDg5LjQ2LjIyMy4xOTE6MzIzOTE=#%F0%9F%87%B3%F0%9F%87%B1+Netherlands
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE4NS4yNDYuODguMTAyOjMyMzkx#%F0%9F%87%B7%F0%9F%87%BA+Russia
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDg5LjE4Ny4xNjIuMTg1OjMyMzkx#%F0%9F%87%B8%F0%9F%87%AC+Singapore
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE4OC4yMDguMTQxLjM3OjMyMzkx#%F0%9F%87%AA%F0%9F%87%A6+Spain
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE4NS43Ni45LjU4OjMyMzkx#%F0%9F%87%B8%F0%9F%87%AA+Sweden
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE3Ni4xMjUuMjMxLjI4OjMyMzkx#%F0%9F%87%A6%F0%9F%87%AA+United+Arab+Emirates
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDE4NS4xMDguMTA1LjE2OTozMjM5MQ==#%F0%9F%87%AC%F0%9F%87%A7+United+Kingdom
+ss://YWVzLTI1Ni1nY206TGI2cE5TZU1wRXFzQjNYaHNCTTV6Y0VrQDEzOC4xOTkuNDAuMTYzOjMyMzkx#%F0%9F%87%BA%F0%9F%87%B2+United+States
