@@ -25,7 +25,7 @@ proxies:
   - {name: 🇪🇦 Spain, server: 82.102.17.179, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇸🇪 Sweden, server: 185.76.9.58, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇦🇪 United Arab Emirates, server: 176.125.231.28, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
-  - {name: 🇬🇧 United Kingdom, server: 185.108.105.22, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇬🇧 United Kingdom, server: 185.44.78.56, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇺🇲 United States, server: 87.101.93.133, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
 
 
