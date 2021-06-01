@@ -1,6 +1,6 @@
 [
   {
-    "server": "91.206.168.21",
+    "server": "91.206.168.24",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -15,7 +15,7 @@
     "udpdns": false
   },
   {
-    "server": "45.125.247.43",
+    "server": "103.192.80.244",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -60,7 +60,7 @@
     "udpdns": false
   },
   {
-    "server": "192.111.128.139",
+    "server": "198.8.92.84",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -75,7 +75,7 @@
     "udpdns": false
   },
   {
-    "server": "196.244.191.110",
+    "server": "196.244.191.109",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -90,7 +90,7 @@
     "udpdns": false
   },
   {
-    "server": "143.244.57.71",
+    "server": "217.138.207.252",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -105,7 +105,7 @@
     "udpdns": false
   },
   {
-    "server": "138.199.19.138",
+    "server": "156.146.33.65",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -120,7 +120,7 @@
     "udpdns": false
   },
   {
-    "server": "37.120.207.118",
+    "server": "212.102.54.137",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -150,7 +150,7 @@
     "udpdns": false
   },
   {
-    "server": "185.153.151.187",
+    "server": "185.153.151.196",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -165,7 +165,7 @@
     "udpdns": false
   },
   {
-    "server": "194.41.112.3",
+    "server": "194.41.112.15",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -180,7 +180,7 @@
     "udpdns": false
   },
   {
-    "server": "89.46.223.53",
+    "server": "81.19.208.80",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -225,7 +225,7 @@
     "udpdns": false
   },
   {
-    "server": "82.102.17.179",
+    "server": "89.37.95.27",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -270,11 +270,11 @@
     "udpdns": false
   },
   {
-    "server": "185.108.105.22",
+    "server": "193.37.252.199",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
-    "remarks": "🇬🇧 United Kingdom",
+    "remarks": "🇺🇲 United States",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
@@ -285,11 +285,11 @@
     "udpdns": false
   },
   {
-    "server": "87.101.93.133",
+    "server": "185.108.105.22",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
-    "remarks": "🇺🇲 United States",
+    "remarks": "🇬🇧 United Kingdom",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
