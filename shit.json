@@ -180,7 +180,7 @@
     "udpdns": false
   },
   {
-    "server": "81.19.208.80",
+    "server": "81.19.208.79",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
