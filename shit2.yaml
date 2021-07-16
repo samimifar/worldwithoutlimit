@@ -19,7 +19,7 @@ proxies:
   - {name: 🇯🇵 Japan, server: 89.187.161.23, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇱🇺 Luxembourg, server: 185.153.151.187, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇲🇽 Mexico, server: 194.41.112.3, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
-  - {name: 🇳🇱 Netherlands, server: 81.19.208.80, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇳🇱 Netherlands, server: 81.19.208.79, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇷🇺 Russia, server: 92.38.138.111, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇸🇬 Singapore, server: 89.187.162.185, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇪🇦 Spain, server: 89.37.95.27, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
