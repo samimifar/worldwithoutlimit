@@ -9,6 +9,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 🇦🇷 Argentina, server: 91.206.168.21, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇦🇺 Australia, server: 45.125.247.43, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇦🇿 Azerbaijan, server: 62.212.239.43, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇧🇪 Belgium, server: 91.90.123.166, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇧🇷 Brazil, server: 45.231.207.73, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇨🇦 Canada, server: 37.19.211.113, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
@@ -24,6 +25,8 @@ proxies:
   - {name: 🇸🇬 Singapore, server: 89.187.162.185, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇪🇦 Spain, server: 89.37.95.27, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇸🇪 Sweden, server: 185.76.9.58, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇨🇭 Switzerland, server: 84.17.53.223, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
+  - {name: 🇹🇷 Turkey, server: 107.150.94.11, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇦🇪 United Arab Emirates, server: 176.125.231.28, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇬🇧 United Kingdom, server: 185.44.78.56, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
   - {name: 🇺🇲 United States, server: 89.187.173.201, port: 32391, type: ss, cipher: aes-256-gcm, password: Lb6pNSeMpEqsB3XhsBM5zcEk}
@@ -36,6 +39,7 @@ proxy-groups:
       - 🔄 Auto
       - 🇦🇷 Argentina
       - 🇦🇺 Australia
+      - 🇦🇿 Azerbaijan
       - 🇧🇪 Belgium
       - 🇧🇷 Brazil 
       - 🇨🇦 Canada 
@@ -51,6 +55,8 @@ proxy-groups:
       - 🇸🇬 Singapore
       - 🇪🇦 Spain
       - 🇸🇪 Sweden
+      - 🇨🇭 Switzerland
+      - 🇹🇷 Turkey
       - 🇦🇪 United Arab Emirates
       - 🇬🇧 United Kingdom
       - 🇺🇲 United States
@@ -61,6 +67,7 @@ proxy-groups:
     proxies:
       - 🇦🇷 Argentina
       - 🇦🇺 Australia
+      - 🇦🇿 Azerbaijan
       - 🇧🇪 Belgium
       - 🇧🇷 Brazil 
       - 🇨🇦 Canada
@@ -75,6 +82,8 @@ proxy-groups:
       - 🇸🇬 Singapore
       - 🇪🇦 Spain
       - 🇸🇪 Sweden
+      - 🇨🇭 Switzerland
+      - 🇹🇷 Turkey
       - 🇦🇪 United Arab Emirates
       - 🇬🇧 United Kingdom
       - 🇺🇲 United States
