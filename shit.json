@@ -30,6 +30,21 @@
     "udpdns": false
   },
   {
+    "server": "62.212.239.43",
+    "server_port": 32391,
+    "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
+    "method": "aes-256-gcm",
+    "remarks": "🇦🇿 Azerbaijan",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
     "server": "91.90.123.166",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
@@ -75,7 +90,7 @@
     "udpdns": false
   },
   {
-    "server": "196.244.191.109",
+    "server": "196.244.191.165",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -245,6 +260,36 @@
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
     "remarks": "🇸🇪 Sweden",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "84.17.53.223",
+    "server_port": 32391,
+    "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
+    "method": "aes-256-gcm",
+    "remarks": "🇨🇭 Switzerland",
+    "route": "all",
+    "remote_dns": "dns.google",
+    "ipv6": false,
+    "metered": false,
+    "proxy_apps": {
+      "enabled": false
+    },
+    "udpdns": false
+  },
+  {
+    "server": "107.150.94.11",
+    "server_port": 32391,
+    "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
+    "method": "aes-256-gcm",
+    "remarks": "🇹🇷 Turkey",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
