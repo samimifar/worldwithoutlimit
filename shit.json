@@ -330,7 +330,7 @@
     "udpdns": false
   },
   {
-    "server": "185.108.105.22",
+    "server": "185.108.105.140",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
