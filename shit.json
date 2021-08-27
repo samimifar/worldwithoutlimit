@@ -105,7 +105,7 @@
     "udpdns": false
   },
   {
-    "server": "217.138.207.252",
+    "server": "143.244.56.231",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -120,7 +120,7 @@
     "udpdns": false
   },
   {
-    "server": "138.199.19.165",
+    "server": "138.199.19.132",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
