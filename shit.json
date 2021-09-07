@@ -75,7 +75,7 @@
     "udpdns": false
   },
   {
-    "server": "37.19.211.113",
+    "server": "66.115.147.79",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -105,7 +105,7 @@
     "udpdns": false
   },
   {
-    "server": "143.244.56.231",
+    "server": "143.244.56.228",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
@@ -180,7 +180,7 @@
     "udpdns": false
   },
   {
-    "server": "194.41.112.15",
+    "server": "194.41.112.37",
     "server_port": 32391,
     "password": "Lb6pNSeMpEqsB3XhsBM5zcEk",
     "method": "aes-256-gcm",
