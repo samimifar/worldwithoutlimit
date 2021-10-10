@@ -69,10 +69,10 @@ proxy-groups:
       - 🇸🇬 Singapore • Singapore
       - 🇪🇸 Spain • Madrid
       - 🇸🇪 Sweden • Stockholm
-      - 🇨🇨🇭 Switzerland • Zurich
+      - 🇨🇭 Switzerland • Zurich
       - 🇹🇷 Turkey • Istanbul
       - 🇦🇪 United Arab Emirates • Dubai
-      - 🇬🇬🇧 United Kingdom • Glasgow
+      - 🇬🇧 United Kingdom • Glasgow
       - 🇺🇸 United States • Miami
 
 
@@ -104,10 +104,10 @@ proxy-groups:
       - 🇸🇬 Singapore • Singapore
       - 🇪🇸 Spain • Madrid
       - 🇸🇪 Sweden • Stockholm
-      - 🇨🇨🇭 Switzerland • Zurich
+      - 🇨🇭 Switzerland • Zurich
       - 🇹🇷 Turkey • Istanbul
       - 🇦🇪 United Arab Emirates • Dubai
-      - 🇬🇬🇧 United Kingdom • Glasgow
+      - 🇬🇧 United Kingdom • Glasgow
       - 🇺🇸 United States • Miami
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
