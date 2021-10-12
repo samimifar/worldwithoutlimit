@@ -261,7 +261,7 @@
     "method": "aes-256-gcm",
     "remarks": "🇳🇱 Netherlands • Amsterdam",
     "route": "all",
-    "remote_dns": "81.19.208.80",
+    "remote_dns": "dns.google",
     "ipv6": false,
     "metered": false,
     "proxy_apps": {
