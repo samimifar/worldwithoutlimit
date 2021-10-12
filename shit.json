@@ -255,13 +255,13 @@
     "udpdns": false
   },
   {
-    "server": "89.46.223.212",
+    "server": "81.19.208.80",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
     "remarks": "🇳🇱 Netherlands • Amsterdam",
     "route": "all",
-    "remote_dns": "dns.google",
+    "remote_dns": "81.19.208.80",
     "ipv6": false,
     "metered": false,
     "proxy_apps": {
@@ -435,7 +435,7 @@
     "udpdns": false
   },
   {
-    "server": "194.5.215.115",
+    "server": "212.102.61.146",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
