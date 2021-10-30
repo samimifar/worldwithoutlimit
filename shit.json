@@ -1,6 +1,6 @@
 [
   {
-    "server": "91.206.168.24",
+    "server": "185.99.3.215",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
@@ -15,11 +15,11 @@
     "udpdns": false
   },
   {
-    "server": "180.149.228.171",
+    "server": "124.150.139.126",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
-    "remarks": "🇦🇺 Australia • Sydney",
+    "remarks": "🇦🇺 Australia • Perth",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
@@ -30,7 +30,7 @@
     "udpdns": false
   },
   {
-    "server": "37.120.212.131",
+    "server": "37.19.195.67",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
@@ -60,7 +60,7 @@
     "udpdns": false
   },
   {
-    "server": "91.90.123.166",
+    "server": "82.102.19.180",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
@@ -135,22 +135,7 @@
     "udpdns": false
   },
   {
-    "server": "196.244.191.99",
-    "server_port": 46693,
-    "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
-    "method": "aes-256-gcm",
-    "remarks": "🇫🇮 Finland • Helsinki",
-    "route": "all",
-    "remote_dns": "dns.google",
-    "ipv6": false,
-    "metered": false,
-    "proxy_apps": {
-      "enabled": false
-    },
-    "udpdns": false
-  },
-  {
-    "server": "143.244.57.106",
+    "server": "45.89.174.60",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
@@ -435,11 +420,11 @@
     "udpdns": false
   },
   {
-    "server": "212.102.61.146",
+    "server": "37.19.199.210",
     "server_port": 46693,
     "password": "W3ZsSkjjL2UuwuTucQVnvd9Y",
     "method": "aes-256-gcm",
-    "remarks": "🇺🇲 United States • Miami",
+    "remarks": "🇺🇲 United States • NewYork",
     "route": "all",
     "remote_dns": "dns.google",
     "ipv6": false,
