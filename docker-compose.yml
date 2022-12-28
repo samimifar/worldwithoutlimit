@@ -1,0 +1,16 @@
+version: '3'
+services:
+
+  shadowsocks:
+    container_name: shadowsocks
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    expose:
+      - "14574"
+    ports:
+      - "14574:14574/udp"
+      - "14574:14574/tcp"
+    volumes:
+      - ./config.json:/config.json:ro
